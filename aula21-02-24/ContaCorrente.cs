@@ -8,13 +8,15 @@ namespace aula21_02_24_eloisa
 {
     internal class ContaCorrente
     {
-        private string proprietario { get; set; }
-        private double saldo { get; set; }
+        public string proprietario { get; set; }
+        public double saldo { get; private set; }
+        public string log { get; private set; }
 
         public ContaCorrente(string proprietario, double saldo)
         {
             this.proprietario = proprietario;
             this.saldo = saldo;
+            this.log = "\nExtrato de: " + this.proprietario + "\n";
         }
 
         public Boolean Sacar(double valor_saque) 
@@ -23,19 +25,22 @@ namespace aula21_02_24_eloisa
             {
                 saldo = saldo - valor_saque;
                 Console.WriteLine("Saque realizado.");
+                this.log += "\Saque de: " + valor_saque.ToString();
+                return true; 
             }
             else
             {
                 Console.WriteLine("Saldo insuficiente!");
+                this.log += "\nTentativa de saque, saldo insuficiente.";
                 return false;
             }
-            return true; 
         }
 
         public Boolean Depositar(double valor_deposito) 
         { 
             saldo = saldo + valor_deposito;
-            Console.WriteLine("Depósito realizado.");
+            Console.WriteLine("saldo atualizado.");
+            this.log += "\Depósito de: " + valor_deposito.ToString();
             return true; 
         }
     }
