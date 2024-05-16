@@ -9,3 +9,4 @@ C:\DevC\aula15-05-24elo\aula15-05-24elo\bin\Debug\aula15-05-24elo.exe
 C:\DevC\aula15-05-24elo\aula15-05-24elo\bin\Debug\aula15-05-24elo.pdb
 C:\DevC\aula15-05-24elo\aula15-05-24elo\obj\Debug\aula15-05-24elo.exe
 C:\DevC\aula15-05-24elo\aula15-05-24elo\obj\Debug\aula15-05-24elo.pdb
+C:\DevC\aula15-05-24elo\aula15-05-24elo\obj\Debug\aula15_05_24elo.Form2.resources

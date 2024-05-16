@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace aula15_05_24elo
 {
-    internal class TipoTelefone
+    public class TipoTelefone
     {
-        public int id;
-        public string nome;
+        public int id { get; set; }
+        public string nome { get; set; }
 
         public TipoTelefone(int id, string nome)
         {

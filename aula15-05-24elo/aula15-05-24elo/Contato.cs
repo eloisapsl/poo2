@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace aula15_05_24elo
 {
-    internal class Contato
+    public class Contato
     {
         public int id { get; set; }
         public string nome { get; set; }

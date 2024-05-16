@@ -13,22 +13,25 @@ namespace aula15_05_24elo
     
     public partial class Form1 : Form
     {
-        List<Contato> listaContatos;
+        public List<Contato> listaContatos;
         public Form1()
         {
             InitializeComponent();
-            cbx1.Items.Add(new TipoTelefone(1, "Profissional"));
-            cbx1.Items.Add(new TipoTelefone(2, "Pessoal"));
-            cbx1.Items.Add(new TipoTelefone(3, "Residencial"));
-            cbx1.Items.Add(new TipoTelefone(4, "Escolar"));
+
+            listaContatos = new List<Contato>();
+            //listaContatos.Add(new Contato(1, "Cassio", "Capucho", "27998745632", (TipoTelefone)cbx1.Items[0]));
+            //listaContatos.Add(new Contato(2, "João", "Capucho", "27998745611", (TipoTelefone)cbx1.Items[1]));
+            //listaContatos.Add(new Contato(3, "Pedro", "Capucho", "27998745622", (TipoTelefone)cbx1.Items[2]));
+
+            dgvContatos.DataSource = null;
+            dgvContatos.DataSource = listaContatos;
+            dgvContatos.Refresh();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             
         }
-
-
         private void dgview1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
            
@@ -52,6 +55,17 @@ namespace aula15_05_24elo
         private void label4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2(this);
+            form2.Show();
         }
     }
 }
