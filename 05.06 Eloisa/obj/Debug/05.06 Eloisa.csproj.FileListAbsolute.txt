@@ -1,0 +1,8 @@
+C:\DevC\05.06 Eloisa\bin\Debug\05.06 Eloisa.exe.config
+C:\DevC\05.06 Eloisa\bin\Debug\05.06 Eloisa.exe
+C:\DevC\05.06 Eloisa\bin\Debug\05.06 Eloisa.pdb
+C:\DevC\05.06 Eloisa\obj\Debug\05.06 Eloisa.csproj.AssemblyReference.cache
+C:\DevC\05.06 Eloisa\obj\Debug\05.06 Eloisa.csproj.SuggestedBindingRedirects.cache
+C:\DevC\05.06 Eloisa\obj\Debug\05.06 Eloisa.csproj.CoreCompileInputs.cache
+C:\DevC\05.06 Eloisa\obj\Debug\05.06 Eloisa.exe
+C:\DevC\05.06 Eloisa\obj\Debug\05.06 Eloisa.pdb
